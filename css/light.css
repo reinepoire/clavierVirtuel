@@ -1,0 +1,23 @@
+/* MENU */
+li.cv, button {
+    background: rgb(248,187,208);
+    background: linear-gradient(130deg, rgba(248,187,208,0.9) 0%, rgba(249,195,214,0.9) 28%, rgba(250,204,220,0.9) 65%, rgba(251,212,226,0.9) 100%); 
+}
+
+li.cv a, .fa-bars {
+    color: black!important;
+}
+a.nav-link:hover:not(.cv) {
+    color: #F8BBD0!important;
+}
+nav img {
+    width: 30vh;
+}
+.navbar{
+    box-shadow: none;
+}
+nav i {
+    color: #FF9933;
+}
+
+/*FIN MENU*/

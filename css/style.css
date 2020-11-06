@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../webfonts/comfortaa-v29-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../webfonts/comfortaa-v29-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/comfortaa-v29-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/comfortaa-v29-latin-300.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  /* comfortaa-500 - latin */
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../webfonts/comfortaa-v29-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../webfonts/comfortaa-v29-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/comfortaa-v29-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/comfortaa-v29-latin-500.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+/* montserrat-200 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../webfonts/montserrat-v15-latin-200.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'),
+         url('../webfonts/montserrat-v15-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/montserrat-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/montserrat-v15-latin-200.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-200italic - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../webfonts/montserrat-v15-latin-200italic.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'),
+         url('../webfonts/montserrat-v15-latin-200italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/montserrat-v15-latin-200italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-200italic.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-200italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/montserrat-v15-latin-200italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../webfonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../webfonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+*{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, a, span.name {
+    font-family: 'Comfortaa';
+    text-transform: lowercase;
+
+}
+
+/* MENU */
+li.cv, button {
+    background: rgb(231,101,43);
+    background: linear-gradient(130deg, rgba(231,101,43,0.9) 0%, rgba(234,140,61,0.9) 28%, rgba(255,153,51,0.9) 65%, rgba(255,204,51,0.9) 100%);
+    border-radius: 5px;
+}
+li.cv a, .fa-bars {
+    color: white!important;
+}
+a.nav-link:hover:not(.cv) {
+    color: #FF9933!important;
+}
+nav img {
+    width: 30vh;
+}
+.navbar{
+    box-shadow: none;
+}
+nav i {
+    color: #FF9933;
+}
+
+/*FIN MENU*/
