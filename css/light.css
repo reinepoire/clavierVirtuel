@@ -10,7 +10,7 @@ background: linear-gradient(130deg, rgba(248,187,208,1) 0%, rgba(248,187,193,1) 
 }
 
 li.cv a, .fa-bars {
-    color: #900E46!important;
+    color: white!important;
 }
 a.nav-link:hover:not(.cv) {
     color: #B6516E!important;
