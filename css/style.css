@@ -67,18 +67,15 @@
     font-family: 'Montserrat';
 }
 
-h1, h2, h3, h4, a, span.name {
+h1, h2, h3, h4, a, span {
     font-family: 'Comfortaa';
     text-transform: lowercase;
 
 }
 
 /* MENU */
-li.cv a, .fa-bars {
-    color: white!important;
-}
-a.nav-link:hover:not(.cv) {
-    color: #FF9933!important;
+li.cv, button {
+    border-radius: 5px;
 }
 nav img {
     width: 30vh;
@@ -91,24 +88,36 @@ nav i {
 }
 /*FIN MENU*/
 
+
+/* MAIN */
+main {
+    margin-top: 2rem;
+}
+main+h1 {
+    font-size: 1.8rem;
+}
+/* FIN MAIN */
+
 /* SECTION 1 */
-  .paper {
+  .notepad {
       background: #fafafa;
-      box-shadow: 0 1px 2px hsla(0,0%,0%,.25);
-      margin: 50px auto;
+      box-shadow: 0 1px 2px rgba(0,0,0,.25);
+      margin: 1rem auto;
       position: relative;
       width: 70%;
-      background-image: -webkit-radial-gradient(#e6e6e6 21%, transparent 21%),
-      -webkit-radial-gradient(hsla(0,0%,0%,.25) 21%, transparent 26%),
-      -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,25%,50%,.1) 95%, hsla(180,25%,50%,.1) 100%);
 
-      background-image: -moz-radial-gradient(#e6e6e6 21%, transparent 21%),
+      background-image: -webkit-radial-gradient(#f5f5f5 21%, transparent 21%),
+      -webkit-radial-gradient(rgba(0,0,0,.25) 21%, transparent 26%),
+      -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 95%, rgba(96,159,159,0.1) 95%, rgba(96,159,159,0.1) 100%);
+
+      background-image: -moz-radial-gradient(#f5f5f5 21%, transparent 21%),
       -moz-radial-gradient(#e6e6e6 10%, transparent 12%),
-      -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,25%,50%,.1) 95%, hsla(180,25%,50%,.1) 100%);
+      -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 95%, rgba(96,159,159,0.1) 95%, rgba(96,159,159,0.1) 100%);
 
-      background-image: radial-gradient(#e6e6e6 21%, transparent 21%),
+      background-image: radial-gradient(#f5f5f5 21%, transparent 21%),
       radial-gradient(#e6e6e6 10%, transparent 12%), 
-      linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,25%,50%,.1) 95%, hsla(180,25%,50%,.1) 100%);
+      linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 95%, rgba(96,159,159,0.1) 95%, rgba(96,159,159,0.1) 100%);
+
 
       background-position: 6px 6px, 6px 5px, 50% 18px;
       background-repeat: repeat-y, repeat-y, repeat;
@@ -116,7 +125,7 @@ nav i {
       padding: 48px 24px 24px 84px;
   }
   /* EFFET MARGES DROITES ROUGES */
-  .paper div:before {
+  .notepad div:before {
     border-left: 1px solid hsla(0,75%,50%,.3);
       border-right: 1px solid hsla(0,75%,50%,.3);
       bottom: 0;
@@ -128,42 +137,101 @@ nav i {
       z-index: 100;
   }
   /* STYLES FEUILLES DE DERRIERE */
-  .paper::before,
-  .paper::after {
+  .notepad::before,
+  .notepad::after {
     content: "";
     position: absolute;
     height: 95%;
     width: 99%;
     background-color: #fafafad3;
   }
-  .paper::before {
+  .notepad::before {
     right: 15px;
     top: 0;
     transform: rotate(-1deg);
     z-index: -1;
   }
-  .paper::after {
+  .notepad::after {
     top: 5px;
     right: -5px;
     transform: rotate(1deg);
     z-index: -2;
   }
     /* BORDURES DES FEUILLES */
-    .paper,
-    .paper::before,
-    .paper::after {
+    .notepad,
+    .notepad::before,
+    .notepad::after {
       border: 1px solid rgb(207, 207, 207);
     }
+
+main section article h1 {
+    font-size: 1.2rem;
+    margin:0;
+}
 /* FIN SECTION 1 */
 
 
+/* SECTION 2 */
+
+main section.keyboard article {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+main section.keyboard article div span {
+  display: inline-block;
+  /* width: 26px;
+   padding-top: 1rem 1.75rem;
+  height: 10%; */
+  /* width: 5%;
+  margin: auto;
+  padding: .5rem .2rem;
+  border-radius: 100%; */
+}
+main section.keyboard span {
+  width: 26px;
+  padding: 1rem 1.75rem;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+main section.keyboard span.deux, main section.keyboard span.quatre {
+  border-radius: 10px;
+  align-self: center;
+}
+
+article.keyboard div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+
+main section.keyboard span.deux {
+  width: 20%;
+}
+main section.keyboard span.quatre {
+  width: 40%;
+}
+
+
+
+/* FIN SECTION 2 */
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* SECTION 1 */
-    .paper {
+    .notepad {
         width: 90%;
+    }
+    /* SECTION 2 */
+    main section.keyboard article {
+      width: 90%;
     }
 }
 
