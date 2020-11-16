@@ -125,9 +125,9 @@ main+h1 {
       padding: 48px 24px 24px 84px;
   }
   /* EFFET MARGES DROITES ROUGES */
-  .notepad div:before {
-    border-left: 1px solid hsla(0,75%,50%,.3);
-      border-right: 1px solid hsla(0,75%,50%,.3);
+  .notepad p:before {
+    border-left: 1px solid hsla(0,75%,50%,.2);
+      border-right: 1px solid hsla(0,75%,50%,.2);
       bottom: 0;
       content: '';
       left: 58px;
@@ -168,6 +168,11 @@ main section article h1 {
     font-size: 1.2rem;
     margin:0;
 }
+
+main section article p {
+  margin-bottom: 24px;
+}
+
 /* FIN SECTION 1 */
 
 
