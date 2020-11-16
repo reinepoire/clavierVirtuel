@@ -180,7 +180,7 @@ main section.keyboard article {
   margin: auto;
   padding: 1.5rem;
   border-radius: 50px;
-  box-shadow: 5px 5px 15px -7px #000000;
+
 }
 main section.keyboard article div span {
   display: inline-block;
@@ -243,6 +243,10 @@ footer {
     main section.keyboard span {
       padding: 0;
     }
+}
+
+.maj {
+  color: red;
 }
 
 /* // Small devices (landscape phones, 576px and up) */

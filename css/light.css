@@ -21,9 +21,6 @@ nav img {
 .navbar{
     box-shadow: none;
 }
-nav i {
-    color: #FF9933;
-}
 
 /*FIN MENU*/
 
@@ -37,6 +34,7 @@ main h1 {
 main section.keyboard article {
     background-color: #f8C4BB;
     border: 1px solid #f8C4BB;
+    box-shadow: 5px 5px 15px -7px #000000;
     
 }
 
