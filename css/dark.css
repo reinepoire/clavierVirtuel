@@ -1,0 +1,63 @@
+body {
+    background-color: #49152C;
+}
+
+
+/* MENU */
+li.cv, button {
+    background: rgb(121,36,73);
+background: linear-gradient(130deg, rgba(121,36,73,1) 0%, rgba(146,43,88,1) 33%, rgba(170,50,102,1) 72%, rgba(194,57,117,1) 100%);
+}
+
+li.cv a, .fa-bars {
+    color: white!important;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+a.nav-link:hover:not(.cv) {
+    color: #B6516E!important;
+}
+nav img {
+    width: 30vh;
+}
+.navbar{
+    box-shadow: none;
+}
+
+/*FIN MENU*/
+
+/* MAIN */
+main h1 {
+    color: #f6a4c0;
+}
+/* FIN MAIN */
+
+/* SECTION 2 */
+main section.keyboard article {
+    border: 1px solid #792449;
+    background-color: #792449;
+    box-shadow: 5px 5px 15px -7px rgb(112, 112, 112);
+    
+}
+main section.keyboard article span, footer {
+    color: white;
+}
+
+main section.keyboard span.chiffres {
+    background-color: #922B58;
+    border: 1px solid #922B58;
+    box-shadow:  5px 5px 15px -7px black;
+}
+
+main section.keyboard span.lettres {
+    background-color: #AA3266;
+    border: 1px solid #AA3266;
+    box-shadow:  5px 5px 15px -7px black;
+}
+main section.keyboard span.special {
+    background-color: #C23975;
+    border: 1px solid #C23975;
+    box-shadow:  5px 5px 15px -7px black;
+}
+/* FIN SECTION 2 */
