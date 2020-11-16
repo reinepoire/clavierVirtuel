@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" id="pagestyle" title="light" href="css/light.css">
+    <link rel="stylesheet" id="dark" title="dark" href="css/dark.css">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -84,7 +85,7 @@
 
       <!-- SECTION 2 : Clavier -->
       <section class="keyboard">
-        <article class="keyboard">
+        <article class="keyboard" id="demo">
           <div>
             <span class="chiffres">1</span>
             <span class="chiffres">2</span>
@@ -122,7 +123,7 @@
             <span class="lettres">m</span>
           </div>
           <div>
-            <span class="special deux">maj</span>
+            <span class="special deux" onclick="myFunction()">maj</span>
             <span class="lettres">w</span>
             <span class="lettres">x</span>
             <span class="lettres">c</span>
@@ -133,8 +134,8 @@
           </div>
           <div>
             <span class="special un">&#</span>
-            <span class="special un"><i class="fas fa-moon"></i></span>
-            <span class="special un"><a href="#"><i class="fab fa-github"></i></a></span>
+            <span onclick="changeMode('css/dark.css')" class="special un"><i class="fas fa-moon"></i></span>
+            <span class="special un"><a href="https://github.com/reinepoire/clavierVirtuel" target="_blank"><i class="fab fa-github"></i></a></span>
             <span class="special quatre">" "</span>
             <span class="special un">.</span>
             <span class="special deux">enter</span>
@@ -151,5 +152,16 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+      function changeMode(sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+      }
+      </script>
+      <script>
+        function myFunction() {
+  document.querySelectorAll('.lettres')
+  .forEach(span => span.style.textTransform = "uppercase");
+}
+      
 </body>
 </html>
