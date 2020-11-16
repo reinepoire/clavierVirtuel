@@ -91,7 +91,7 @@ nav i {
 
 /* MAIN */
 main {
-    margin-top: 2rem;
+    margin-top: .8rem;
 }
 main+h1 {
     font-size: 1.8rem;
@@ -179,8 +179,8 @@ main section.keyboard article {
   width: 80%;
   margin: auto;
   padding: 1.5rem;
-  border: 1px solid black;
   border-radius: 50px;
+  box-shadow: 5px 5px 15px -7px #000000;
 }
 main section.keyboard article div span {
   display: inline-block;
@@ -194,9 +194,11 @@ main section.keyboard article div span {
 }
 main section.keyboard span {
   width: 26px;
-  padding: 1rem 1.75rem;
+  /* padding: 1rem 1.75rem; */
+  padding: 1rem 1.9rem .8rem 1.3rem;
   border: 1px solid black;
   border-radius: 100%;
+  cursor: pointer;
 }
 main section.keyboard span.deux, main section.keyboard span.quatre {
   border-radius: 10px;
@@ -208,6 +210,7 @@ article.keyboard div {
   justify-content: space-between;
   text-align: center;
   width: 100%;
+  margin-bottom: .5rem;
 }
 
 
@@ -218,9 +221,13 @@ main section.keyboard span.quatre {
   width: 40%;
 }
 
-
-
 /* FIN SECTION 2 */
+
+/* FOOTER */
+footer {
+  margin-top: 1rem;
+}
+/* FIN FOOTER */
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -232,6 +239,9 @@ main section.keyboard span.quatre {
     /* SECTION 2 */
     main section.keyboard article {
       width: 90%;
+    }
+    main section.keyboard span {
+      padding: 0;
     }
 }
 

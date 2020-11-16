@@ -32,3 +32,28 @@ main h1 {
     color: #f6a4c0;
 }
 /* FIN MAIN */
+
+/* SECTION 2 */
+main section.keyboard article {
+    background-color: #f8C4BB;
+    border: 1px solid #f8C4BB;
+    
+}
+
+main section.keyboard span.chiffres {
+    background-color: #f8D4BB;
+    border: 1px solid #f8D4BB;
+    box-shadow:  5px 5px 15px -7px #B6516E;
+}
+
+main section.keyboard span.lettres {
+    background-color: #F8BBC1;
+    border: 1px solid #F8BBC1;
+    box-shadow:  5px 5px 15px -7px #B6516E;
+}
+main section.keyboard span.special {
+    border: 1px solid #F8BBD0;
+    background-color: #F8BBD0;
+    box-shadow:  5px 5px 15px -7px #B6516E;
+}
+/* FIN SECTION 2 */
