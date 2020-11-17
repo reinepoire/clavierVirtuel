@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" id="pagestyle" title="light" href="css/light.css">
-    <link rel="stylesheet" id="dark" title="dark" href="css/dark.css">
+    <link rel="stylesheet" href="css/light.css" class="light" id="pagestyle">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -33,7 +32,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="img/favicon/manifest.json">
 </head>
-<body>
+<body class="light">
     <header>
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light ">
@@ -135,9 +134,9 @@
           </div>
           <div>
             <span class="special un">&#</span>
-            <span onclick="changeMode('css/dark.css')" class="special un"><i class="fas fa-moon"></i></span>
+            <span onclick="changeCss()" class="special un"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></span>
             <span class="special un"><a href="https://github.com/reinepoire/clavierVirtuel" target="_blank"><i class="fab fa-github"></i></a></span>
-            <span class="special quatre">" "</span>
+            <span class="special quatre"></span>
             <span class="special un">.</span>
             <span class="special deux">enter</span>
           </div>
@@ -153,17 +152,16 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script>
-      function changeMode(sheet){
-        document.getElementById('pagestyle').setAttribute('href', sheet);
-      }
-      </script>
+    <script type="text/javascript" src="js/main.js"></script>
+  
       <script>
         function myFunction() {
   document.querySelectorAll('.lettres')
   .forEach(span => span.style.textTransform = "uppercase");
         }
 </script>
+ 
+
       
 </body>
 </html>
