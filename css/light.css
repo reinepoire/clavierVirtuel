@@ -43,15 +43,27 @@ main section.keyboard span.chiffres {
     border: 1px solid #f8D4BB;
     box-shadow:  5px 5px 15px -7px #B6516E;
 }
+main section.keyboard span.chiffres:hover {
+    background-color: #f8c9a8;
+    border: 1px solid #f8c9a8;
+}
 
 main section.keyboard span.lettres {
     background-color: #F8BBC1;
     border: 1px solid #F8BBC1;
     box-shadow:  5px 5px 15px -7px #B6516E;
 }
+main section.keyboard span.lettres:hover {
+    background-color: #f8abb3;
+    border: 1px solid #f8abb3;
+}
 main section.keyboard span.special {
     border: 1px solid #F8BBD0;
     background-color: #F8BBD0;
     box-shadow:  5px 5px 15px -7px #B6516E;
+}
+main section.keyboard span.special:hover {
+    background-color: #f7afc8;
+    border: 1px solid #f7afc8;
 }
 /* FIN SECTION 2 */

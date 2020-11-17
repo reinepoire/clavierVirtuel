@@ -207,7 +207,7 @@ main section.keyboard span {
 }
 main section.keyboard span.deux, main section.keyboard span.quatre {
   border-radius: 10px;
-  align-self: center;
+  align-self: stretch;
 }
 
 article.keyboard div {
@@ -250,18 +250,38 @@ footer {
     }
 }
 
-.maj {
-  color: red;
+body.light i.fa-sun {
+  display: none;
+}
+body.dark i.fa-moon {
+  display: none;
 }
 
+
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav img {
+    width: 20vh;
+}
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav img {
+    width: 25vh;
+}
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  nav img {
+    width: 20vh;
+}
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  nav img {
+    width: 30vh;
+}
+}
