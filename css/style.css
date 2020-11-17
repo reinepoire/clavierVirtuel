@@ -218,12 +218,15 @@ article.keyboard div {
   margin-bottom: .5rem;
 }
 
-
 main section.keyboard span.deux {
   width: 20%;
 }
 main section.keyboard span.quatre {
   width: 40%;
+}
+
+.maj {
+  text-transform: uppercase;
 }
 
 /* FIN SECTION 2 */

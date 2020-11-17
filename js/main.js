@@ -23,3 +23,11 @@ function changeCss() {
     }
   }
 //  DARK/LIGHT MODE
+
+// BOUTON MAJUSCULES
+$(document).ready(function(){
+    $("span.special.deux").click(function(){
+      $("span.lettres").toggleClass("maj");
+    });
+  });
+// BOUTON MAJUSCULES
