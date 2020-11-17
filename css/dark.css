@@ -40,7 +40,7 @@ main section.keyboard article {
     box-shadow: 5px 5px 15px -7px rgb(112, 112, 112);
     
 }
-main section.keyboard article span, footer {
+main section.keyboard article span, footer, main section.keyboard span.special a {
     color: white;
 }
 
@@ -49,15 +49,28 @@ main section.keyboard span.chiffres {
     border: 1px solid #922B58;
     box-shadow:  5px 5px 15px -7px black;
 }
+main section.keyboard span.chiffres:hover {
+    background-color: #7c0c3c;
+    border: 1px solid #7c0c3c;
+}
 
-main section.keyboard span.lettres {
+main section.keyboard span.lettres, span.special-character {
     background-color: #AA3266;
     border: 1px solid #AA3266;
     box-shadow:  5px 5px 15px -7px black;
+}
+main section.keyboard span.lettres:hover, span.special-character:hover {
+    background-color: #992356;
+    border: 1px solid #992356;
 }
 main section.keyboard span.special {
     background-color: #C23975;
     border: 1px solid #C23975;
     box-shadow:  5px 5px 15px -7px black;
 }
+main section.keyboard span.special:hover {
+    background-color: #a72d61;
+    border: 1px solid #a72d61;
+}
+
 /* FIN SECTION 2 */

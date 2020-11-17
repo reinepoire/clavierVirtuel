@@ -48,12 +48,12 @@ main section.keyboard span.chiffres:hover {
     border: 1px solid #f8c9a8;
 }
 
-main section.keyboard span.lettres {
+main section.keyboard span.lettres, span.special-character {
     background-color: #F8BBC1;
     border: 1px solid #F8BBC1;
     box-shadow:  5px 5px 15px -7px #B6516E;
 }
-main section.keyboard span.lettres:hover {
+main section.keyboard span.lettres:hover, span.special-character:hover {
     background-color: #f8abb3;
     border: 1px solid #f8abb3;
 }
@@ -65,5 +65,9 @@ main section.keyboard span.special {
 main section.keyboard span.special:hover {
     background-color: #f7afc8;
     border: 1px solid #f7afc8;
+}
+
+main section.keyboard span.special a {
+    color: #212529;
 }
 /* FIN SECTION 2 */

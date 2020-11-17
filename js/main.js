@@ -31,3 +31,13 @@ $(document).ready(function(){
     });
   });
 // BOUTON MAJUSCULES
+
+
+// BOUTON CARACTERES SPECIAUX
+$(document).ready(function(){
+    $("span.special-character-key").click(function(){
+      $("span.lettres").toggleClass("hidden")
+      $("span.chiffres").toggleClass("hidden");
+    });
+  });
+  // BOUTON CARACTERES SPECIAUX
