@@ -34,37 +34,50 @@ main h1 {
 main section.keyboard article {
     background-color: #f8C4BB;
     border: 1px solid #f8C4BB;
-    box-shadow: 5px 5px 15px -7px #000000;
+    /* box-shadow: 5px 5px 15px -7px #000000; */
+    box-shadow: 2px 3px 0px 2px #f6b0a4;
     
 }
 
 main section.keyboard span.chiffres {
-    background-color: #f8D4BB;
+    /* background-color: #f8D4BB;
     border: 1px solid #f8D4BB;
-    box-shadow:  5px 5px 15px -7px #B6516E;
+    box-shadow:  5px 5px 15px -7px #B6516E; */
+    background: #f8D4BB;
+    box-shadow: 1px 2px #f1a876;
 }
 main section.keyboard span.chiffres:hover {
-    background-color: #f8c9a8;
-    border: 1px solid #f8c9a8;
+    /* background-color: #f8c9a8;
+    border: 1px solid #f8c9a8; */
+    box-shadow: 0 1px #f1a876;
+    top: 2px;
 }
 
 main section.keyboard span.lettres, span.special-character {
-    background-color: #F8BBC1;
+    /* background-color: #F8BBC1;
     border: 1px solid #F8BBC1;
-    box-shadow:  5px 5px 15px -7px #B6516E;
+    box-shadow:  5px 5px 15px -7px #B6516E; */
+    background: #F8BBC1;
+    box-shadow: 1px 2px #f17682;
 }
 main section.keyboard span.lettres:hover, span.special-character:hover {
-    background-color: #f8abb3;
-    border: 1px solid #f8abb3;
+    /* background-color: #f8abb3;
+    border: 1px solid #f8abb3; */
+    box-shadow: 0 1px #f17682;
+    top: 2px;
 }
 main section.keyboard span.special {
-    border: 1px solid #F8BBD0;
+    /* border: 1px solid #F8BBD0;
     background-color: #F8BBD0;
-    box-shadow:  5px 5px 15px -7px #B6516E;
+    box-shadow:  5px 5px 15px -7px #B6516E; */
+    background: #F8BBD0;
+    box-shadow: 1px 2px #f176a0;
 }
 main section.keyboard span.special:hover {
-    background-color: #f7afc8;
-    border: 1px solid #f7afc8;
+    /* background-color: #f7afc8;
+    border: 1px solid #f7afc8; */
+    box-shadow: 0 1px #f176a0;
+    top: 2px;
 }
 
 main section.keyboard span.special a {

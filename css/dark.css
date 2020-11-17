@@ -37,7 +37,8 @@ main h1 {
 main section.keyboard article {
     border: 1px solid #792449;
     background-color: #792449;
-    box-shadow: 5px 5px 15px -7px rgb(112, 112, 112);
+    /* box-shadow: 5px 5px 15px -7px rgb(112, 112, 112); */
+    box-shadow: 2px 3px 0px 2px #651e3d;
     
 }
 main section.keyboard article span, footer, main section.keyboard span.special a {
@@ -45,32 +46,44 @@ main section.keyboard article span, footer, main section.keyboard span.special a
 }
 
 main section.keyboard span.chiffres {
-    background-color: #922B58;
+    /* background-color: #922B58;
     border: 1px solid #922B58;
-    box-shadow:  5px 5px 15px -7px black;
+    box-shadow:  5px 5px 15px -7px black; */
+    background: #922B58;
+    box-shadow: 1px 2px #250b16;
 }
 main section.keyboard span.chiffres:hover {
-    background-color: #7c0c3c;
-    border: 1px solid #7c0c3c;
+    /* background-color: #7c0c3c;
+    border: 1px solid #7c0c3c; */
+    box-shadow: 0 1px #250b16;
+    top: 2px;
 }
 
 main section.keyboard span.lettres, span.special-character {
-    background-color: #AA3266;
+    /* background-color: #AA3266;
     border: 1px solid #AA3266;
-    box-shadow:  5px 5px 15px -7px black;
+    box-shadow:  5px 5px 15px -7px black; */
+    background: #AA3266;
+    box-shadow: 1px 2px #381122;
 }
 main section.keyboard span.lettres:hover, span.special-character:hover {
-    background-color: #992356;
-    border: 1px solid #992356;
+    /* background-color: #992356;
+    border: 1px solid #992356; */
+    box-shadow: 0 1px #381122;
+    top: 2px;
 }
 main section.keyboard span.special {
-    background-color: #C23975;
+    /* background-color: #C23975;
     border: 1px solid #C23975;
-    box-shadow:  5px 5px 15px -7px black;
+    box-shadow:  5px 5px 15px -7px black; */
+    background: #C23975;
+    box-shadow: 1px 2px #381122;
 }
 main section.keyboard span.special:hover {
-    background-color: #a72d61;
-    border: 1px solid #a72d61;
+    /* background-color: #a72d61;
+    border: 1px solid #a72d61; */
+    box-shadow: 0 1px #381122;
+    top: 2px;
 }
 
 /* FIN SECTION 2 */
