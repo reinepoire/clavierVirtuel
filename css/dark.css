@@ -52,7 +52,7 @@ main section.keyboard span.chiffres {
     background: #922B58;
     box-shadow: 1px 2px #250b16;
 }
-main section.keyboard span.chiffres:hover {
+main section.keyboard span.chiffres:active {
     /* background-color: #7c0c3c;
     border: 1px solid #7c0c3c; */
     box-shadow: 0 1px #250b16;
@@ -66,7 +66,7 @@ main section.keyboard span.lettres, span.special-character {
     background: #AA3266;
     box-shadow: 1px 2px #381122;
 }
-main section.keyboard span.lettres:hover, span.special-character:hover {
+main section.keyboard span.lettres:active, span.special-character:active {
     /* background-color: #992356;
     border: 1px solid #992356; */
     box-shadow: 0 1px #381122;
@@ -79,7 +79,7 @@ main section.keyboard span.special {
     background: #C23975;
     box-shadow: 1px 2px #381122;
 }
-main section.keyboard span.special:hover {
+main section.keyboard span.special:active {
     /* background-color: #a72d61;
     border: 1px solid #a72d61; */
     box-shadow: 0 1px #381122;
