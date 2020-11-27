@@ -256,6 +256,9 @@ footer {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    nav img {
+      width: 20vh;
+    }
     /* SECTION 1 */
     .notepad {
         width: 90%;
@@ -280,14 +283,14 @@ body.dark i.fa-moon {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   nav img {
-    width: 20vh;
+    width: 30vh;
 }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   nav img {
-    width: 25vh;
+    width: 30vh;
 }
 }
 

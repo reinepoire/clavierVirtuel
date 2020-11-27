@@ -41,3 +41,32 @@ $(document).ready(function(){
     });
   });
   // BOUTON CARACTERES SPECIAUX
+
+
+// $(document).ready(function(){
+//         $('span.chiffres').click(function(){
+//               var value = $(this).val();
+//               $('#notepad').val(value);
+//     });
+// });  
+
+// $(document).ready(function(){    
+//     $('span.chiffres').click(function(){
+//         // Either use $(this) or $(e.target).
+//         $('#notepad').text($(this).val());
+//     });
+// });
+
+$(document).ready(function(){
+    $('#button1').click(function(){
+          var value = $(this).val();
+          $('#notepad').val(value);
+});
+});
+
+
+
+function setLetter(letter) {
+    document.getElementById('name').innerHTML = document.getElementById('name').innerHTML + letter;
+}
+            

@@ -80,6 +80,7 @@
           <h1>Laisse-moi un petit message</h1>
           <p>Coucou, ce projet est toujours en cours et il n'est pas encore fonctionnel...</p>
           <p>J'y travaille &#x1F477;&#x1F3FE;&#x200D;&#x2640;&#xFE0F;</p>
+          <p id="name"></p>
         </article>
       </section>
 
@@ -87,7 +88,7 @@
       <section class="keyboard">
         <article class="keyboard" id="demo">
           <div>
-            <span class="chiffres">1</span>
+            <span class="chiffres" value="1" id="button1" onclick = "putText(1)">1</span>
             <span class="special-character">[</span>
             <span class="chiffres">2</span>
             <span class="special-character">]</span>
@@ -158,11 +159,11 @@
             <span class="special-character">,</span>
             <span class="lettres">x</span>
             <span class="special-character">?</span>
-            <span class="lettres">c</span>
+            <span onclick="setLetter(';');" class="lettres">c</span>
             <span class="special-character">!</span>
             <span class="lettres">v</span>
             <span class="special-character">'</span>
-            <span class="lettres">b</span>
+            <span  class="lettres">b</span>
             <span class="special-character">¨</span>
             <span class="lettres test">n</span>
             <span class="special-character">°</span>
@@ -179,6 +180,17 @@
         </article>
       </section>
     </main>
+
+    <button >B</button>
+<button >C</button>
+<button onclick="setLetter('D');">D</button>
+<button onclick="setLetter('E');">E</button>
+<button onclick="setLetter('F');">F</button>
+<button onclick="setLetter('G');">G</button>
+<button onclick="setLetter('H');">H</button>
+<button onclick="setLetter('I');">I</button>
+<button onclick="setLetter('J');">J</button>
+
 
     <footer class="text-center">
           <p>Made with &#128150 by reinepoire</p>
